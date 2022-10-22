@@ -46,6 +46,7 @@ Promise:
 
     State of an application using APIs ---> REST APIs --> representational state transfer
 
+  use eval for infx expresiion valuation
 
 next session:
 
