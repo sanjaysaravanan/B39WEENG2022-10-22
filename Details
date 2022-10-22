@@ -1,0 +1,64 @@
+
+
+Callback
+
+  callback function ---> a function which is used an arguement to another function to execute a set of statements
+
+  async operations execution ( operation running in background )
+    Eg: setTimout ( wait for sometime to execute ) , setInterval ( executes frequently after certain interval )
+  
+  async operations are put into a queue after the wait time/ or completion of action.
+  then js grabs them from the queue for execution
+
+  use & purpose of the callback
+
+  callback advantages:
+    1. Modularity / Reusability
+    2. To keep track when to execute what statements as a callback in a asynchronous operation
+
+    asynchronous operation always go for named callback function to keep track
+
+  pain of callback
+
+    Callback Hell: Callback Hell is essentially nested callbacks stacked below one another forming a pyramid structure. Every callback depends/waits for the previous callback, thereby making a pyramid structure that affects the readability and maintainability of the code
+
+
+Promise:
+
+  to understand the completion of an asynchronous event/operation
+
+  State:
+
+    pending --->  initial state, neither fulfilled nor rejected.
+
+    fullfilled ---> meaning that the operation was completed successfully.
+
+    rejected ---> meaning that the operation failed.
+
+    methods:
+      then ---> executed when the promise is fullfilled/resolved
+      catch ---> executed when the promise is rejected/unfullfilled
+
+  Go thorugh online about below,
+  API ---> Application Programming Interface
+
+    APIs are the communication between services( backend, front-end, payment, ... ) can be using JSON etc...
+
+    State of an application using APIs ---> REST APIs --> representational state transfer
+
+
+next session:
+
+Fetch & then
+
+  Fetch -> Interface to make an api call
+    then ---> response --> convert response to json -> promsie .then (json -> operation on json)
+  
+  CRUD --> 
+    Read => Fetch
+    Create => Fetch with Method POST
+    Update => Fetch with Method PUT
+    Delete => Fetch with Method DELETE
+  Chaining:
+  All
+  try & catch
