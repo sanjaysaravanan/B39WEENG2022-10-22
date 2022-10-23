@@ -7,6 +7,8 @@ Callback
   async operations execution ( operation running in background )
     Eg: setTimout ( wait for sometime to execute ) , setInterval ( executes frequently after certain interval )
   
+  Javascript is a single thread 
+  
   async operations are put into a queue after the wait time/ or completion of action.
   then js grabs them from the queue for execution
 
@@ -25,7 +27,7 @@ Callback
 
 Promise:
 
-  to understand the completion of an asynchronous event/operation
+  Object to understand the completion(or failure) of an asynchronous event/operation
 
   State:
 
